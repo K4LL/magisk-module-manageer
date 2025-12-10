@@ -1,0 +1,10 @@
+[package]
+name = "magisk-module-manageer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+regex = "1"
+zip = "6.0.0"
+walkdir = "2"
